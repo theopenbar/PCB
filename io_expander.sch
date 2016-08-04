@@ -1,0 +1,478 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:The Open Bar-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title "The Open Bar Control Board"
+Date "2016-08-04"
+Rev "A"
+Comp "The Open Bar"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X16 P6
+U 1 1 56D75806
+P 9900 3550
+AR Path="/56D7312B/56D75806" Ref="P6"  Part="1" 
+AR Path="/56D78520/56D75806" Ref="P7"  Part="1" 
+AR Path="/56D78A1E/56D75806" Ref="P8"  Part="1" 
+AR Path="/56D79252/56D75806" Ref="P9"  Part="1" 
+F 0 "P8" H 9900 4400 50  0000 C CNN
+F 1 "CONN_01X16" V 10000 3550 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_16pol" H 9900 3550 50  0001 C CNN
+F 3 "" H 9900 3550 50  0000 C CNN
+	1    9900 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MTM232270LBF Q1
+U 1 1 56D75807
+P 4450 3150
+AR Path="/56D7312B/56D75807" Ref="Q1"  Part="1" 
+AR Path="/56D78520/56D75807" Ref="Q9"  Part="1" 
+AR Path="/56D78A1E/56D75807" Ref="Q17"  Part="1" 
+AR Path="/56D79252/56D75807" Ref="Q25"  Part="1" 
+F 0 "Q17" H 4650 3225 50  0000 L CNN
+F 1 "MTM232270LBF" H 4650 3150 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SC-70" H 4650 3075 50  0001 L CIN
+F 3 "" H 4450 3100 50  0000 L CNN
+	1    4450 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MTM232270LBF Q2
+U 1 1 56D75808
+P 5150 3350
+AR Path="/56D7312B/56D75808" Ref="Q2"  Part="1" 
+AR Path="/56D78520/56D75808" Ref="Q10"  Part="1" 
+AR Path="/56D78A1E/56D75808" Ref="Q18"  Part="1" 
+AR Path="/56D79252/56D75808" Ref="Q26"  Part="1" 
+F 0 "Q18" H 5350 3425 50  0000 L CNN
+F 1 "MTM232270LBF" H 5350 3350 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SC-70" H 5350 3275 50  0001 L CIN
+F 3 "" H 5150 3300 50  0000 L CNN
+	1    5150 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MTM232270LBF Q3
+U 1 1 56D75809
+P 5850 3550
+AR Path="/56D7312B/56D75809" Ref="Q3"  Part="1" 
+AR Path="/56D78520/56D75809" Ref="Q11"  Part="1" 
+AR Path="/56D78A1E/56D75809" Ref="Q19"  Part="1" 
+AR Path="/56D79252/56D75809" Ref="Q27"  Part="1" 
+F 0 "Q19" H 6050 3625 50  0000 L CNN
+F 1 "MTM232270LBF" H 6050 3550 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SC-70" H 6050 3475 50  0001 L CIN
+F 3 "" H 5850 3500 50  0000 L CNN
+	1    5850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MTM232270LBF Q4
+U 1 1 56D7580A
+P 6550 3750
+AR Path="/56D7312B/56D7580A" Ref="Q4"  Part="1" 
+AR Path="/56D78520/56D7580A" Ref="Q12"  Part="1" 
+AR Path="/56D78A1E/56D7580A" Ref="Q20"  Part="1" 
+AR Path="/56D79252/56D7580A" Ref="Q28"  Part="1" 
+F 0 "Q20" H 6750 3825 50  0000 L CNN
+F 1 "MTM232270LBF" H 6750 3750 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SC-70" H 6750 3675 50  0001 L CIN
+F 3 "" H 6550 3700 50  0000 L CNN
+	1    6550 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MTM232270LBF Q5
+U 1 1 56D7580B
+P 7250 3950
+AR Path="/56D7312B/56D7580B" Ref="Q5"  Part="1" 
+AR Path="/56D78520/56D7580B" Ref="Q13"  Part="1" 
+AR Path="/56D78A1E/56D7580B" Ref="Q21"  Part="1" 
+AR Path="/56D79252/56D7580B" Ref="Q29"  Part="1" 
+F 0 "Q21" H 7450 4025 50  0000 L CNN
+F 1 "MTM232270LBF" H 7450 3950 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SC-70" H 7450 3875 50  0001 L CIN
+F 3 "" H 7250 3900 50  0000 L CNN
+	1    7250 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MTM232270LBF Q6
+U 1 1 56D7580C
+P 7950 4150
+AR Path="/56D7312B/56D7580C" Ref="Q6"  Part="1" 
+AR Path="/56D78520/56D7580C" Ref="Q14"  Part="1" 
+AR Path="/56D78A1E/56D7580C" Ref="Q22"  Part="1" 
+AR Path="/56D79252/56D7580C" Ref="Q30"  Part="1" 
+F 0 "Q22" H 8150 4225 50  0000 L CNN
+F 1 "MTM232270LBF" H 8150 4150 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SC-70" H 8150 4075 50  0001 L CIN
+F 3 "" H 7950 4100 50  0000 L CNN
+	1    7950 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MTM232270LBF Q7
+U 1 1 56D7580D
+P 8700 4350
+AR Path="/56D7312B/56D7580D" Ref="Q7"  Part="1" 
+AR Path="/56D78520/56D7580D" Ref="Q15"  Part="1" 
+AR Path="/56D78A1E/56D7580D" Ref="Q23"  Part="1" 
+AR Path="/56D79252/56D7580D" Ref="Q31"  Part="1" 
+F 0 "Q23" H 8900 4425 50  0000 L CNN
+F 1 "MTM232270LBF" H 8900 4350 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SC-70" H 8900 4275 50  0001 L CIN
+F 3 "" H 8700 4300 50  0000 L CNN
+	1    8700 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MTM232270LBF Q8
+U 1 1 56D7580E
+P 9400 4550
+AR Path="/56D7312B/56D7580E" Ref="Q8"  Part="1" 
+AR Path="/56D78520/56D7580E" Ref="Q16"  Part="1" 
+AR Path="/56D78A1E/56D7580E" Ref="Q24"  Part="1" 
+AR Path="/56D79252/56D7580E" Ref="Q32"  Part="1" 
+F 0 "Q24" H 9600 4625 50  0000 L CNN
+F 1 "MTM232270LBF" H 9600 4550 50  0001 L CNN
+F 2 "TO_SOT_Packages_SMD:SC-70" H 9600 4475 50  0001 L CIN
+F 3 "" H 9400 4500 50  0000 L CNN
+	1    9400 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR27
+U 1 1 56D7580F
+P 9500 2750
+AR Path="/56D7312B/56D7580F" Ref="#PWR27"  Part="1" 
+AR Path="/56D78520/56D7580F" Ref="#PWR32"  Part="1" 
+AR Path="/56D78A1E/56D7580F" Ref="#PWR37"  Part="1" 
+AR Path="/56D79252/56D7580F" Ref="#PWR42"  Part="1" 
+F 0 "#PWR37" H 9500 2600 50  0001 C CNN
+F 1 "+12V" H 9500 2890 50  0000 C CNN
+F 2 "" H 9500 2750 50  0000 C CNN
+F 3 "" H 9500 2750 50  0000 C CNN
+	1    9500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR28
+U 1 1 56D75818
+P 9500 5100
+AR Path="/56D7312B/56D75818" Ref="#PWR28"  Part="1" 
+AR Path="/56D78520/56D75818" Ref="#PWR33"  Part="1" 
+AR Path="/56D78A1E/56D75818" Ref="#PWR38"  Part="1" 
+AR Path="/56D79252/56D75818" Ref="#PWR43"  Part="1" 
+F 0 "#PWR38" H 9500 4850 50  0001 C CNN
+F 1 "GND" H 9500 4950 50  0000 C CNN
+F 2 "" H 9500 5100 50  0000 C CNN
+F 3 "" H 9500 5100 50  0000 C CNN
+	1    9500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP23008 IC1
+U 1 1 56D75820
+P 3050 3600
+AR Path="/56D7312B/56D75820" Ref="IC1"  Part="1" 
+AR Path="/56D78520/56D75820" Ref="IC2"  Part="1" 
+AR Path="/56D78A1E/56D75820" Ref="IC3"  Part="1" 
+AR Path="/56D79252/56D75820" Ref="IC4"  Part="1" 
+F 0 "IC3" H 2500 4150 50  0000 L CNN
+F 1 "MCP23008" H 3250 4150 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-18_7.5x11.6mm_Pitch1.27mm" H 3050 3600 50  0001 C CIN
+F 3 "" H 3050 3200 50  0000 C CNN
+	1    3050 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR25
+U 1 1 56D75821
+P 3050 4450
+AR Path="/56D7312B/56D75821" Ref="#PWR25"  Part="1" 
+AR Path="/56D78520/56D75821" Ref="#PWR30"  Part="1" 
+AR Path="/56D78A1E/56D75821" Ref="#PWR35"  Part="1" 
+AR Path="/56D79252/56D75821" Ref="#PWR40"  Part="1" 
+F 0 "#PWR35" H 3050 4200 50  0001 C CNN
+F 1 "GND" H 3050 4300 50  0000 C CNN
+F 2 "" H 3050 4450 50  0000 C CNN
+F 3 "" H 3050 4450 50  0000 C CNN
+	1    3050 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR24
+U 1 1 56D75822
+P 3050 2750
+AR Path="/56D7312B/56D75822" Ref="#PWR24"  Part="1" 
+AR Path="/56D78520/56D75822" Ref="#PWR29"  Part="1" 
+AR Path="/56D78A1E/56D75822" Ref="#PWR34"  Part="1" 
+AR Path="/56D79252/56D75822" Ref="#PWR39"  Part="1" 
+F 0 "#PWR34" H 3050 2600 50  0001 C CNN
+F 1 "+3.3V" H 3050 2890 50  0000 C CNN
+F 2 "" H 3050 2750 50  0000 C CNN
+F 3 "" H 3050 2750 50  0000 C CNN
+	1    3050 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 56D75826
+P 3550 2700
+AR Path="/56D7312B/56D75826" Ref="C5"  Part="1" 
+AR Path="/56D78520/56D75826" Ref="C6"  Part="1" 
+AR Path="/56D78A1E/56D75826" Ref="C7"  Part="1" 
+AR Path="/56D79252/56D75826" Ref="C8"  Part="1" 
+F 0 "C7" H 3575 2800 50  0000 L CNN
+F 1 "0.1uF" H 3575 2600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 3588 2550 50  0001 C CNN
+F 3 "" H 3550 2700 50  0000 C CNN
+	1    3550 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR26
+U 1 1 56D75827
+P 3800 2750
+AR Path="/56D7312B/56D75827" Ref="#PWR26"  Part="1" 
+AR Path="/56D78520/56D75827" Ref="#PWR31"  Part="1" 
+AR Path="/56D78A1E/56D75827" Ref="#PWR36"  Part="1" 
+AR Path="/56D79252/56D75827" Ref="#PWR41"  Part="1" 
+F 0 "#PWR36" H 3800 2500 50  0001 C CNN
+F 1 "GND" H 3800 2600 50  0000 C CNN
+F 2 "" H 3800 2750 50  0000 C CNN
+F 3 "" H 3800 2750 50  0000 C CNN
+	1    3800 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 2900 4550 2900
+Wire Wire Line
+	4550 2900 4550 2950
+Wire Wire Line
+	9700 3100 5250 3100
+Wire Wire Line
+	5250 3100 5250 3150
+Wire Wire Line
+	9700 3300 5950 3300
+Wire Wire Line
+	5950 3300 5950 3350
+Wire Wire Line
+	9700 3500 6650 3500
+Wire Wire Line
+	6650 3500 6650 3550
+Wire Wire Line
+	9700 3700 7350 3700
+Wire Wire Line
+	7350 3700 7350 3750
+Wire Wire Line
+	9700 3900 8050 3900
+Wire Wire Line
+	8050 3900 8050 3950
+Wire Wire Line
+	8800 4100 9700 4100
+Wire Wire Line
+	8800 4100 8800 4150
+Wire Wire Line
+	9700 4300 9500 4300
+Wire Wire Line
+	9500 4300 9500 4350
+Wire Wire Line
+	9500 4200 9700 4200
+Wire Wire Line
+	9500 2750 9500 4200
+Wire Wire Line
+	9700 2800 9500 2800
+Connection ~ 9500 2800
+Wire Wire Line
+	9700 3000 9500 3000
+Connection ~ 9500 3000
+Wire Wire Line
+	9700 3200 9500 3200
+Connection ~ 9500 3200
+Wire Wire Line
+	9700 3400 9500 3400
+Connection ~ 9500 3400
+Wire Wire Line
+	9700 3600 9500 3600
+Connection ~ 9500 3600
+Wire Wire Line
+	9700 3800 9500 3800
+Connection ~ 9500 3800
+Wire Wire Line
+	9700 4000 9500 4000
+Connection ~ 9500 4000
+Wire Wire Line
+	9500 4750 9500 5100
+Connection ~ 9500 5050
+Wire Wire Line
+	8800 5050 8800 4550
+Wire Wire Line
+	8050 5050 8050 4350
+Connection ~ 8050 5050
+Wire Wire Line
+	7350 5050 7350 4150
+Connection ~ 7350 5050
+Wire Wire Line
+	6650 5050 6650 3950
+Connection ~ 6650 5050
+Wire Wire Line
+	5950 5050 5950 3750
+Connection ~ 5950 5050
+Wire Wire Line
+	5250 3550 5250 5050
+Connection ~ 5250 5050
+Wire Wire Line
+	4550 3350 4550 5050
+Wire Wire Line
+	3050 2750 3050 2950
+Wire Wire Line
+	3750 3200 4250 3200
+Wire Wire Line
+	3750 3300 4400 3300
+Wire Wire Line
+	4400 3300 4400 3400
+Wire Wire Line
+	4400 3400 4950 3400
+Wire Wire Line
+	5400 3600 5650 3600
+Wire Wire Line
+	3750 3900 3750 4850
+Wire Wire Line
+	3750 4850 9000 4850
+Wire Wire Line
+	9000 4850 9000 4600
+Wire Wire Line
+	9000 4600 9200 4600
+Wire Wire Line
+	8300 4400 8500 4400
+Wire Wire Line
+	7500 4200 7750 4200
+Wire Wire Line
+	6800 4000 7050 4000
+Wire Wire Line
+	6100 3800 6350 3800
+Wire Wire Line
+	3750 3800 3800 3800
+Wire Wire Line
+	3800 3800 3800 4750
+Wire Wire Line
+	3800 4750 8300 4750
+Wire Wire Line
+	8300 4750 8300 4400
+Wire Wire Line
+	3750 3700 3850 3700
+Wire Wire Line
+	3850 3700 3850 4650
+Wire Wire Line
+	3850 4650 7500 4650
+Wire Wire Line
+	7500 4650 7500 4200
+Wire Wire Line
+	3750 3600 3900 3600
+Wire Wire Line
+	3900 3600 3900 4550
+Wire Wire Line
+	3900 4550 6800 4550
+Wire Wire Line
+	6800 4550 6800 4000
+Wire Wire Line
+	3750 3500 3950 3500
+Wire Wire Line
+	3950 3500 3950 4450
+Wire Wire Line
+	3950 4450 6100 4450
+Wire Wire Line
+	6100 4450 6100 3800
+Wire Wire Line
+	3750 3400 4000 3400
+Wire Wire Line
+	4000 3400 4000 4350
+Wire Wire Line
+	4000 4350 5400 4350
+Wire Wire Line
+	5400 4350 5400 3600
+Connection ~ 3050 2900
+Wire Wire Line
+	3800 2750 3800 2700
+Wire Wire Line
+	3800 2700 3700 2700
+Wire Wire Line
+	3400 2700 3250 2700
+Wire Wire Line
+	3250 2700 3250 2850
+Wire Wire Line
+	3250 2850 3050 2850
+Connection ~ 3050 2850
+Wire Wire Line
+	3050 4450 3050 4300
+Text HLabel 2200 3400 0    50   Input ~ 0
+SCL
+Text HLabel 2200 3500 0    50   Input ~ 0
+SDA
+Text HLabel 2200 3600 0    50   Input ~ 0
+A2
+Text HLabel 2200 3700 0    50   Input ~ 0
+A1
+Text HLabel 2200 3800 0    50   Input ~ 0
+A0
+Text HLabel 2200 3900 0    50   Input ~ 0
+INT
+Text HLabel 2200 3200 0    50   Input ~ 0
+~RESET
+Wire Wire Line
+	2200 3200 2350 3200
+Wire Wire Line
+	2200 3400 2350 3400
+Wire Wire Line
+	2200 3500 2350 3500
+Wire Wire Line
+	2200 3600 2350 3600
+Wire Wire Line
+	2200 3700 2350 3700
+Wire Wire Line
+	2200 3800 2350 3800
+Wire Wire Line
+	2350 3900 2200 3900
+Connection ~ 8800 5050
+Wire Wire Line
+	4550 5050 9500 5050
+$EndSCHEMATC
