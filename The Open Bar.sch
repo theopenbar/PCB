@@ -35,8 +35,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
 Title "The Open Bar Control Board"
-Date "2017-02-25"
-Rev "B"
+Date "2017-03-21"
+Rev "C"
 Comp "The Open Bar"
 Comment1 ""
 Comment2 ""

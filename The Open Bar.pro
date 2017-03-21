@@ -1,4 +1,4 @@
-update=2/25/2017 9:40:23 AM
+update=3/21/2017 11:39:19 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -20,9 +20,6 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
-[cvpcb]
-version=1
-NetIExt=net
 [eeschema]
 version=1
 LibDir=
@@ -56,8 +53,9 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
+[cvpcb]
 version=1
+NetIExt=net
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -68,3 +66,5 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=50
+[general]
+version=1
