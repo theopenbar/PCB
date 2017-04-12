@@ -2,11 +2,11 @@
 
   (general
     (links 266)
-    (no_connects 4)
+    (no_connects 3)
     (area 112.863094 46.275 196.936906 151.755)
     (thickness 1.6)
     (drawings 18)
-    (tracks 820)
+    (tracks 822)
     (zones 0)
     (modules 97)
     (nets 75)
@@ -15,8 +15,8 @@
   (page A4)
   (title_block
     (title "The Open Bar I/O Board")
-    (date 2017-03-21)
-    (rev C)
+    (date 2017-04-11)
+    (rev D)
     (company "The Open Bar")
   )
 
@@ -44,7 +44,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.508)
     (user_trace_width 0.508)
     (user_trace_width 0.889)
     (trace_clearance 0.2)
@@ -92,11 +92,11 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 4)
+      (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory PDFs/))
+      (outputdirectory Gerbers/))
   )
 
   (net 0 "")
@@ -4201,9 +4201,11 @@
   (segment (start 185.42 58.625) (end 183.175 58.625) (width 0.508) (layer F.Cu) (net 58))
   (segment (start 182.5 59.3) (end 181.116 59.3) (width 0.508) (layer F.Cu) (net 58) (tstamp 58B10670) (status 20))
   (segment (start 183.175 58.625) (end 182.5 59.3) (width 0.508) (layer F.Cu) (net 58) (tstamp 58B1066F))
-  (segment (start 175.7 54.5) (end 176.8 53.4) (width 0.508) (layer F.Cu) (net 59) (tstamp 58D137D1))
-  (segment (start 175.7 57.5) (end 175.7 54.5) (width 0.508) (layer F.Cu) (net 59))
-  (segment (start 176.4 53.78) (end 176.84 53.34) (width 0.508) (layer F.Cu) (net 59) (tstamp 58B10925))
+  (segment (start 174.498 57.912) (end 174.498 55.702) (width 0.508) (layer F.Cu) (net 59) (status 400000))
+  (segment (start 174.498 55.702) (end 176.8 53.4) (width 0.508) (layer F.Cu) (net 59) (tstamp 58ED8451) (status 800000))
+  (segment (start 175.7 57.5) (end 175.7 56.6846) (width 0.508) (layer F.Cu) (net 59) (status 400000))
+  (segment (start 176.8 55.5846) (end 176.8 53.4) (width 0.508) (layer F.Cu) (net 59) (tstamp 58ED8446) (status 800000))
+  (segment (start 175.7 56.6846) (end 176.8 55.5846) (width 0.508) (layer F.Cu) (net 59) (tstamp 58ED8432))
   (segment (start 170.5 57.5) (end 170.5 54.1) (width 0.508) (layer F.Cu) (net 60))
   (segment (start 170.5 54.1) (end 169.8 53.4) (width 0.508) (layer F.Cu) (net 60) (tstamp 58D137D9))
   (segment (start 169.84 53.34) (end 169.1 54.08) (width 0.508) (layer F.Cu) (net 60))
